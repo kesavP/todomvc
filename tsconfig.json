@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "module": "es6",
+    "moduleResolution": "node",
+    "typeRoots": [ "./node_modules/@types" ],
+    "noImplicitAny": true,
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "dist",
+"allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/main.tsx"
+  ]
+}
