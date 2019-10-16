@@ -17,4 +17,3 @@ export const NewTaskForm: FunctionComponent<Props> = ({
     <button type="submit">Add a task</button>
   </form>
 );
-

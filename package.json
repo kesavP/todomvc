@@ -12,6 +12,7 @@
     "@fullcalendar/interaction": "^4.1.0",
     "@fullcalendar/react": "^4.1.0",
     "@fullcalendar/timegrid": "^4.1.0",
+    "google-map-react": "^1.1.5",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },

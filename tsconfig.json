@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "jsx": "react",
-    "target": "es5",
-    "module": "es6",
+    "jsx": "react",  // use typescript to transpile jsx to js
+    "target": "es5", // specify ECMAScript target version
+    "module": "es6", // specifiy module code generation
     "moduleResolution": "node",
     "typeRoots": [ "./node_modules/@types" ],
-    "noImplicitAny": true,
-    "strict": true,
-    "sourceMap": true,
+    "noImplicitAny": false,   // disallow implicit any type
+    "strict": false,
+    "sourceMap": true, //allow sourcemap support
     "outDir": "dist",
 "allowSyntheticDefaultImports": true
   },
   "include": [
-    "src/main.tsx"
+    "./src"
   ]
 }
